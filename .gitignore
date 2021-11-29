@@ -1,2 +1,4 @@
 sumnumbers/dist/index.js
 sumnumbers/dist/
+.dist/
+dist/
