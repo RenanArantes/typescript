@@ -37,7 +37,7 @@ type Tupla = [number, number];
 
 //Apenas uma declaracao por escopo
 type JQueryy = { a: string };
-type JQueryy = { b: string };
+/* type JQueryy = { b: string }; */
 
 //mais recomendado no geral
 //na maioria das vezes

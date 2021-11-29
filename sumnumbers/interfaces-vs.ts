@@ -30,7 +30,7 @@ interface getSimilars{
 
 //----------- DIFERENCAS -----------------//
 //nao permite declarar tipos primitivos
-interface ID extends number {}
+/* interface ID extends number {} */
 
 //nao consegue reproduzir o comportamento da tupla
 interface Tuple {
