@@ -48,3 +48,12 @@ function error(): never {
 let carrinho: object;
 
 carrinho = { produto1: 'ticaricatica' }
+
+//Type Inference /* é quando o TS detecta automaticamente que o valor de uma variavel é X baseado no valor inicial/padrao ou algum retorno */
+let mensagem = "mensagem defined"
+mensagem = "nova mensagem"
+/* evita a tipagem redundante */
+
+window.addEventListener("click", (e) => {
+    console.log(e.target);
+})
